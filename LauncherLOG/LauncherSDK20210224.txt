@@ -1,0 +1,4 @@
+2021-02-24 02:49:23.359 +09:00 [ERR] Could not load file or assembly 'Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed' or one of its dependencies.
+System.IO.FileNotFoundException: Could not load file or assembly 'Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed' or one of its dependencies.
+File name: 'Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed'
+  at Ehd.Launcher.SDK.ContentsAPI.S0002 (System.String json) [0x00045] in <4d1bf48acfca442aae5db819ea18803f>:0 

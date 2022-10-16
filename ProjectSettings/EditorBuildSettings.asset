@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: Assets/ktk/scenes/old/33.unity
+    guid: 468f5c78c75032d4c834134259e9b8c0
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: Assets/ktk/scenes/old/AudioSupportScene.unity
+    guid: 8e34cf9bdda067a459611e195132afcf
+  - enabled: 0
+    path: Assets/kimgu/37.unity
+    guid: 5c3eeb00334b39045b400b9a43d7a824
+  - enabled: 0
+    path: Assets/kimgu/38.unity
+    guid: 8c8c8744f26e9384db235808015d6e24
+  - enabled: 0
+    path: Assets/kimgu/39.unity
+    guid: 2415a9ce0bd76bb4b974a5118ae880b6
+  - enabled: 1
+    path: Assets/kimgu/kiosk.unity
+    guid: 96cfcdfd2a9759c41aed288dedc3b334
+  - enabled: 0
+    path: Assets/kimgu/holo.unity
+    guid: d9546c1ec4697604bae7a96fbf61007f
+  m_configObjects: {}
