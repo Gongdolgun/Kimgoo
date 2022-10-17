@@ -1,3 +1,5 @@
+![header](https://capsule-render.vercel.app/api?type=waving&color=auto&height=200&section=header&text=Kimgoo&fontSize=60)
+
 # Kimgoo
 
 ### 프로젝트 기간
@@ -17,3 +19,5 @@
 - 클라이언트와 지속적으로 면담 및 요구사항 수정
 
 ### 주요 코드
+
+![Footer](https://capsule-render.vercel.app/api?type=waving&color=auto&height=200&section=footer)
