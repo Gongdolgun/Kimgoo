@@ -1,6 +1,6 @@
-![header](https://capsule-render.vercel.app/api?type=waving&color=auto&height=200&section=header&text=Dokdo&fontSize=60)
+![header](https://capsule-render.vercel.app/api?type=waving&color=auto&height=200&section=header&text=Kimgoo&fontSize=60)
 
-# Dokdo
+# Kimgoo
 
 ### 프로젝트 기간
 2022.01 ~ 2022.06
