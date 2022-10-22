@@ -8,6 +8,9 @@
 ### 기술 스택
 <img src="https://img.shields.io/badge/Unity-000000?style=flat-square&logo=Unity&logoColor=white"/>  <img src="https://img.shields.io/badge/C Sharp-239120?style=flat-square&logo=C Sharp&logoColor=white"/>  <img src="https://img.shields.io/badge/Google Dialogflow-FF9800?style=flat-square&logo=Dialogflow&logoColor=white"/>  <img src="https://img.shields.io/badge/Synology-B5B5B6?style=flat-square&logo=Synology&logoColor=white"/>
 
+### 아키텍처
+<img width="80%" src="https://user-images.githubusercontent.com/90584581/197328141-caef4475-c90d-4eee-88da-de2217ea4a36.png"/>
+
 ### 프로젝트 내용
 인간형 AI와 실시간으로 대화하며 백범 김구 선생님의 과거와 역사적 사실에 대해 알아갈 수 있는 프로젝트입니다.\
 현재 용산, 화성, 광주에서 전시중이며 지속적인 클라이언트와의 커뮤니케이션으로 유지보수중입니다.
