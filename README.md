@@ -35,7 +35,7 @@
 
         ```
         void CheckPeople()
-    	{
+        {
             if (Time.time > lastTime + amount)
             {
                 string localpath = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
