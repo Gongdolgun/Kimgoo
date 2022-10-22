@@ -110,6 +110,6 @@ response의 값을 가지고 애니메이션, 음성파일등 전체적인 프�
 #### 애니메이터 구성도
 디지털 휴먼의 자연스러운 움직임을 위한 애니메이터의 구성도입니다.
 
-<img width="80%" src="https://user-images.githubusercontent.com/90584581/197328141-caef4475-c90d-4eee-88da-de2217ea4a36.png"/>
+<img width="80%" src="https://user-images.githubusercontent.com/90584581/197329723-f2038590-3978-4fda-af78-0d4b14669e74.png"/>
 
 ![Footer](https://capsule-render.vercel.app/api?type=waving&color=auto&height=200&section=footer)
