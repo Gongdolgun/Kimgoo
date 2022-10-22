@@ -29,6 +29,50 @@
 - 클라이언트와 지속적으로 면담 및 요구사항 수정
 
 ### 핵심 코드
+먼저 리얼센스 카메라를 이용하여 사람이 카메라 앞에 있는지 체크하는 코드입니다.\
+앞에 있으면 1, 없으면 0을 반환하며 값에 따라 시작 또는 종료와 초기화를 진행합니다.
+
+        ```
+        void CheckPeople()
+    	{
+            if (Time.time > lastTime + amount)
+            {
+                string localpath = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
+                string path = localpath + "/state.txt";
+                StreamReader reader = new StreamReader(path);
+                string aa = reader.ReadLine();
+                reader.Close();
+                if (stateText != aa)
+                {
+                    if (aa == "1")
+                    {
+                        micBlock = false;
+                        SetState(0);
+                        people.SetActive(true);
+                    }
+                    else
+                    {
+                        SetState(-1);
+                        GameObject tmp = GameObject.Find("DF-Client");
+                        tmp.GetComponent<DF2ClientAudioTester>().StopAllCoroutines();
+                        tmp.GetComponent<DF2ClientAudioTester>().CancelInvoke();
+                        loop1 = 0;
+                        micBlock = true;
+                        StopMicrophone();
+                        canQText.text = " ";
+                        waitQText.text = " ";
+                        people.SetActive(false);
+                    }
+                    stateText = aa;
+                }
+
+                lastTime = Time.time;
+            }
+        }
+        ```
+
+
+
 Google Dialogflow에서 온 응답을 적용하는 코드입니다.\
 response의 값을 가지고 애니메이션, 음성파일등 전체적인 프로젝트의 흐름을 핸들링합니다.
 
